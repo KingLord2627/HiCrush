@@ -19,7 +19,7 @@ noBtn.addEventListener("mouseover", () => {
     const randomY = Math.floor(Math.random() * maxY);
 
     noBtn.style.left = randomX + "px";
-    yesBtn.style.right = randomY + "px";
+    //yesBtn.style.right = randomY + "px";
 });
 
 noBtn.addEventListener("touchstart", () => {
@@ -31,7 +31,7 @@ noBtn.addEventListener("touchstart", () => {
     const randomY = Math.floor(Math.random() * maxY);
 
     noBtn.style.left = randomX + "px";
-    yesBtn.style.right = randomY + "px";
+    //yesBtn.style.right = randomY + "px";
 });
 
 noBtn.addEventListener("touchend", () => {
@@ -43,5 +43,5 @@ noBtn.addEventListener("touchend", () => {
     const randomY = Math.floor(Math.random() * maxY);
 
     noBtn.style.left = randomX + "px";
-    yesBtn.style.right = randomY + "px";
+    //yesBtn.style.right = randomY + "px";
 });
